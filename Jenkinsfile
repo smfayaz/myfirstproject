@@ -1,11 +1,15 @@
-node {
- "jenkinsagent"
-
-  stage("SCM CHECKOUT")
-  {
-'''  sh  pwd  '''
-
+pipeline {
+  agent any
+  stages {
+     stage { "checkout"
+        steps{
+            sh '''
+       		 pwd
+		 who
+		 uptime
+		 java -version
+	       '''
+         }
+     }
   }
-  
 }
-
