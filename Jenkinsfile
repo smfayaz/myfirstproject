@@ -1,9 +1,12 @@
 pipeline {
   agent any
   stages {
-     stage ("checkout") {
+     stage ("scripts") {
         steps{
             sh '''
+		 
+		 ip a
+		 jenkins -version
        		 pwd
 		 who
 		 uptime
