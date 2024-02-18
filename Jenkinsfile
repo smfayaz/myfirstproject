@@ -3,9 +3,9 @@ node {
 
   stage("SCM CHECKOUT")
   {
+'''  sh  pwd  '''
 
   }
   
 }
-
 
