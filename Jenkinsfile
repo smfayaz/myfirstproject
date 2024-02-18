@@ -6,7 +6,7 @@ pipeline {
             sh '''
 		 
 		 ip a
-		 jenkins -version
+		 jenkins --version
        		 pwd
 		 who
 		 uptime
