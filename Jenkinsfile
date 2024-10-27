@@ -12,6 +12,7 @@ pipeline {
 		 uptime
 		 java --version
 		 uptime
+                 hostnamectl
 	       '''
          }
      }
