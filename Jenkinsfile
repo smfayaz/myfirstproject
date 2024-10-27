@@ -10,7 +10,8 @@ pipeline {
        		 pwd
 		 who
 		 uptime
-		 java -version
+		 java --version
+		 uptime
 	       '''
          }
      }
